@@ -15,3 +15,7 @@
 - 用途：一般用于头部、标题栏
 - 通过<md-toolbar-row>可以支持多行
 - 默认内部布局是支持flex的
+
+## md-icon
+
+使用图标字体，内建material icon支持
