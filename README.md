@@ -18,7 +18,8 @@
 
 ## md-icon
 
-使用图标字体，内建material icon支持
-支持svg：通过注入MdIconRegistry和DomSanitizer完成
+- 使用图标字体，内建material icon支持
+- 支持svg：通过注入MdIconRegistry和DomSanitizer完成
 
 `this.iconRegistry.addSvgIcon('project',this.sanitizer.bypassSecurityTrustRescourceUrl('assets/img/sidebar/project.svg'))`
+如果每个都需要重复调用的话，就可以做成一个工具类，在core构造中调用这个加载方法
