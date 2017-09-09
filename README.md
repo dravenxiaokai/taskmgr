@@ -9,3 +9,9 @@
 - 用途：侧边栏导航，同时可以作为容器
 - 侧滑的三种模式：over,push,side
 - 一般和<md-sidenav-container>联合使用
+
+## Toolbar
+
+- 用途：一般用于头部、标题栏
+- 通过<md-toolbar-row>可以支持多行
+- 默认内部布局是支持flex的
