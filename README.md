@@ -19,3 +19,6 @@
 ## md-icon
 
 使用图标字体，内建material icon支持
+支持svg：通过注入MdIconRegistry和DomSanitizer完成
+
+`this.iconRegistry.addSvgIcon('project',this.sanitizer.bypassSecurityTrustRescourceUrl('assets/img/sidebar/project.svg'))`
