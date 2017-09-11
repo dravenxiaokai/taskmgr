@@ -1,21 +1,21 @@
 import { NgModule, SkipSelf, Optional } from '@angular/core';
-import { MdIconRegistry } from '@angular/material'
-import { DomSanitizer } from '@angular/platform-browser'
-import { CommonModule } from '@angular/common';
+import { MdIconRegistry } from '@angular/material';
+import { DomSanitizer } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { HttpModule } from '@angular/http'
-import { MdToolbarModule, MdIconModule, MdButtonModule } from '@angular/material'
-import { loadSvgResources } from '../utils/svg.util'
+import { HttpModule } from '@angular/http';
+import { SharedModule } from '../shared/shared.module';
+import { loadSvgResources } from '../utils/svg.util';
+// import { AppRoutingModule } from '../app-routing.module'
 
 @NgModule({
   imports: [
-    CommonModule,
     HttpModule,
-    MdToolbarModule,
-    MdIconModule,
-    MdButtonModule
+    SharedModule,
+    BrowserAnimationsModule,
+    // AppRoutingModule
   ],
   declarations: [HeaderComponent, FooterComponent, SidebarComponent],
   exports: [
