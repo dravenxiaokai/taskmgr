@@ -40,3 +40,10 @@
 - md-button 是以指令形式提供的
 - 标准按钮：md-button,md-raised-button,md-icon-button
 - 浮动按钮：md-fab,md-mini-fab
+
+## form表单中，如果button没有指定`type="button"`会默认为`type="submit"`提交，会引起浏览器刷新
+
+## List
+- 用途：一般用于列表
+- <md-list>和<md-nav-list>
+- 多行列表、带图标列表、带头像列表、密集型列表和多段列表
