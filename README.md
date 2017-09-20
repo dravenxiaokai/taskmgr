@@ -45,5 +45,5 @@
 
 ## List
 - 用途：一般用于列表
-- <md-list>和<md-nav-list>
+- `<md-list>`和`<md-nav-list>`
 - 多行列表、带图标列表、带头像列表、密集型列表和多段列表
